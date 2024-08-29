@@ -1,0 +1,27 @@
+cores primarias{
+    Amarelo, Vermelho, Azul
+}
+
+cores secundarias{
+    Laranja, Violeta, Verde
+}
+
+cores Terciarias{
+    Amarelo-esverdiado, Amarelo-alaranjado
+    Vermelho-alaranjado, Vermelho-arroxeado
+    Azul-arroxeado, Azul-esverdiado
+}
+
+cores frias{
+    Amarelo-esverdiado, Verde, Azul-esverdiado
+    Azul, Azul-arroxeado, Violeta
+}
+
+cores quentes{
+    Amarelo, Amarelo-alaranjado, Laranja
+    Vermelho-alaranjado, Vermelho, Vermelho-arroxeado
+}
+
+ADOBE COLOR
+PALETTON
+COOLORS

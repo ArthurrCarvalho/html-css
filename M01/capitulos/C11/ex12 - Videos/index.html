@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu propiro servidor</p>
+
+    <video width="400" height="300" controls poster="imagens/thumb.png" autoplay loop>
+        <source src="midia/sanduiche-iche.mp4" type="video/mp4">
+        <source src="midia/sanduiche-iche.m4v" type="video/mp4">
+        <source src="midia/sanduiche-iche.webm" type="video/webm">
+        <source src="midia/sanduiche-iche.ogv" type="video/ogg">
+
+        <p>Infelizmente seu navegador não consegue reproduzir video. <a href="midia/sanduiche-iche.mp4" download="sanduiche-iche.mp4" type="video/mp4">Clique aqui para baixar o arquivo MP4</a></p>
+    </video>
+
+    <h1>Inserindo videos do YouTube</h1>
+    <iframe width="400" height="300" src="https://www.youtube.com/embed/Tytu1tA2t0A?si=icb5kFLBLLCFpArJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>

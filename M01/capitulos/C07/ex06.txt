@@ -1,0 +1,9 @@
+<h1> titulo de 1° nivel (titulo principal da pagina)
+<h2> titulo de 2° nivel (subtitulo do "h1")
+<h3> titulo de 3° nivel (subtitulo do "h2")
+.
+.
+.
+<h6> titulo de 6° nivel (subtitulo do "h5")
+
+todos esses titulo podem ter um paagrafo inserido

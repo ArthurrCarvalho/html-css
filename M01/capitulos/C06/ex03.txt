@@ -1,0 +1,17 @@
+
+colocar as imagens em uma pasta separada
+
+salvar img no maximo em 1500x1000
+
+imgs com 2MB ja é mt pesado para colocar em um site tente usar em torno de 500KB
+
+usar imgs sem direitos autorais
+
+PNG: tem suporte para pixels transparentes
+JPEG/JPG: não suporta pixels transparentes e é mais pesado
+
+"pixels" é um site para conseguir imgs sem direitos autorais
+
+<img src="/ex03 - imagens/imagens/logo HTML5.png" alt="logo HTML5"> --> "src" local de origem do arquivo, "alt" alternativa se a pagina não carregar a img
+
+para colocar img externas precisamor colar a url da img no "src"

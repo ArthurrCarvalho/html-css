@@ -1,0 +1,11 @@
+Como conseguir audios?
+
+https://youtube.com
+configurações ->
+youtube studio ->
+biblioteca de audios -> aq vc pode escolher varios tipo de 
+musicas e efeitos sonoros filtrando por genero, estilo, clima e etc. consegue tb 
+filtrar por musicas sem direitos autorais
+
+sempre tomar cuidado com o tamanho do audio no quesito qualidade
+para n gerar arquivos muito pesados pro seu site

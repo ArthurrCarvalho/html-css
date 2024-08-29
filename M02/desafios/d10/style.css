@@ -1,0 +1,130 @@
+@charset "UTF-8 ";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+}
+
+header{
+    background-image: linear-gradient(180deg, #3CD782, #195935);
+    padding: 1em;
+    margin: 0;
+}
+
+header > h1 {
+    font-family: 'Oswald', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+    text-indent: 0;
+}
+
+nav > a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1em;
+    color: white;
+}
+
+nav > a:hover {
+    background-color: #195935;
+}
+
+main {
+    background-color: white;
+    width: 810px;
+    padding: 1.25em;
+    margin: 0 auto 20px auto;
+    box-shadow: 4px 4px 8px 0 rgb(0, 0, 0, 0.3);
+    border-radius: 0 0 20px 20px;
+}
+
+h1, h2 {
+    font-family: 'idroid', Arial, sans-serif;
+    color: #195935;
+}
+
+h2 {
+    background-image: linear-gradient(90deg, #3cd7827a, #3cd78200);
+}
+
+span {
+    color: #195935;
+    font-weight: bolder;
+}
+
+.link {
+    color: #195935;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.link::after {
+    content: '🔗';
+}
+
+p {
+    text-indent: 3em;
+}
+
+.img {
+    margin: 0 auto;
+    height: 195px; width: 300px;
+    background-color: white;
+}
+
+.video {
+    margin: 0 0 -20px -20px;
+    padding: 30px 0 0 50px;
+    width: 800px; height: 450px;
+    background-color: #195935;
+}
+
+footer {
+    background-color: #195935;
+    padding: 16px;
+    text-align: center;
+    color: #3CD782;
+}
+
+footer > p {
+    margin: 0;
+}
+
+footer > p > span {
+    color: white;
+    font-weight: bold;
+}
+
+.extra {
+    margin: 50px 20px 20px 20px;
+    background-color: #C5EBD6;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 0 rgb(0, 0, 0, 0.3);
+}
+
+.extra > h3 {
+    margin: -30px -30px 0 -30px;
+    background-color: #2FA866;
+    color: white;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+.extra > .list {
+    display: inline-block;
+    width: 300px;
+}

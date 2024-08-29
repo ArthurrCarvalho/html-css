@@ -1,0 +1,41 @@
+
+===== estrutura basica =====
+---------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo</title>
+    </head>
+
+    <body>
+
+    </body>
+
+</html>
+---------------------------------------------------------------------------------------------------------------
+
+
+===== head =====
+---------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html> --> indica ao navegador qual a versão do HTML
+
+<html lang="pt-br"> --> indica ao navegador qual a lingua do site
+
+<meta charset="UTF-8"> --> meta para caracteres especiais
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> --> meta para abrir pagina em escala normal
+
+<title> </title> --> titulo q fica na guia/aba do navegador
+---------------------------------------------------------------------------------------------------------------
+
+
+===== body =====
+---------------------------------------------------------------------------------------------------------------
+<hr> --> cria uma linha
+<hr> e uma tag vazia, ou seja n tem uma tag de fechamento apenas uma tag de abertura, ao contrario de <h1> por Exemplo
+
+<p> </p> --> e um paragrafo
+---------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,10 @@
+
+$lt e &gt --> servem para escrever "<" e ">" (respectivamente) sem colocar tag
+
+&reg; &trade; etc. --> esses são "HTML Entities" são simbolos que podem ser exibidos usando codigo (e necessario terminar esses codigos como "&copy;" com ponto e virgula)
+
+&#x1F525; --> e um emoji, para colocar emoji e necessario usar "&#x" e o codigo do emoji e terminar com ponto e virgula
+
+emojipedia.org - site para conseguir os codigo dos emojis
+
+<br> --> quebra a linha do paagrafo

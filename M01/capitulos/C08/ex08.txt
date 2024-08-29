@@ -1,0 +1,1 @@
+visualmente os dois exemplos são iguais mas as tags do html4 n tem semantica ou seja nao tem significado e em um futuro proximo poderão ficar absoletas

@@ -1,0 +1,6 @@
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> --> o favicon
+
+o farmato recomendado para um favicon e o formato "ico"
+
+"favicon.io" site para converter imgs para formato "ico"
