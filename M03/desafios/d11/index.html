@@ -7,14 +7,14 @@
     <style>
         body {
             height: 97vh;
-            background-image: url('imagens/espaco.jpg');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 110%;
+            background: #000020 url('imagens/espaco.jpg') center no-repeat fixed;
+            background-size: cover;
+            position: relative;
         }
         img {
-            display: block;
-            margin: auto;
+            position: absolute;
+            left: 50%; top: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
