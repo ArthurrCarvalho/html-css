@@ -1,0 +1,80 @@
+@charset "UTF-8 ";
+
+body {
+    background-color: rgb(50, 50, 50);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+table {
+    width: 850px;
+    height: 1250px;
+    border-collapse: collapse;
+    margin: 25px auto;
+    position: relative;
+}
+
+caption {
+    padding: 8px;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    position: sticky;
+    top: -1px;
+    background-color: lightgray;
+}
+
+thead, tfoot {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: 42px;
+    background-color: black;
+}
+
+tfoot > tr > td > a {
+    color: white;
+}
+
+/*
+odd = impar
+even = par
+*/
+tbody > tr:nth-child(even) {
+    background-color: lightgray;
+}
+tbody > tr:nth-child(odd) {
+    background-color: white;
+}
+
+td, th {
+    border: 1px, solid, black;
+    padding: 8px;
+    text-align: center;
+}
+
+td.num {
+    text-align: right;
+}
+
+td.add {
+    color: green;
+}

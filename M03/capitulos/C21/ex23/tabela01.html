@@ -10,22 +10,27 @@
         }
 
         table {
+            height: 400px;
             width: 400px;
             border-collapse: collapse;
-        }
-
-        td {
-            border: 1px solid black;
-            padding: 8px;
         }
 
         th {
             background-color: black;
             color: white;
+            border: 1px solid black;
             font-weight: bold;
             text-align: center;
             padding: 4px;
         }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left; /* alinhamento horizontal */
+            vertical-align: middle; /* alinhameto vertical */
+        }
+
     </style>
 </head>
 <body>
@@ -40,10 +45,10 @@
 
     -->
     <table>
-        <tr> <!-- Linha de Cabeçalho -->
+        <tr>  <!-- Linha de Cabeçalho -->
             <th>A
-            <th>B
-            <th>C
+                <th>B
+                <th>C
 
         <tr> <!-- Primeira Linha -->
             <td>A1

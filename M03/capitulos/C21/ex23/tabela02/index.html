@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Tabelas Grandes</title>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+
+        TABLE
+            THEAD
+                TR, TD, TH
+
+            TBODY
+                TR, TD, TH
+
+            TFOOT
+                TR, TD, TH
+    -->
+    <table >
+        <caption>População das Unidades Federativas</caption>
+        <thead class="x">
+            <th scope="col">Posição
+            <th scope="col">UF
+            <th scope="col">População
+            <th scope="col">Variação (%)
+            <th scope="col">% da pop.
+            <th scope="col">País comparável
+        </thead>
+
+        <tbody>
+            <tr>
+                <td scope="row">1</td>
+                <td><a href="https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo_(estado)" target="_blank">São Paulo</a></td>
+                <td class="num">45 973 190</td>
+                <td class="add">+3,51%</td>
+                <td>21,88%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Argentina" target="_blank">Argentina</a> (46 621 847)</td>
+            </tr>
+            <tr>
+                <td scope="row">2</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Minas_Gerais" target="_blank">Minas Gerais</a></td>
+                <td class="num">21 322 692</td>
+                <td class="add">+3,86%</td>
+                <td>10,11%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Burkina_Faso" target="_blank">Burquina Fasso</a> (20 903 273)</td>
+            </tr>
+            <tr>
+                <td scope="row">3</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Rio_de_Janeiro_(estado)" target="_blank">Rio de Janeiro</a></td>
+                <td class="num">17 219 679</td>
+                <td class="add">+7,25%</td>
+                <td>7,91%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Camboja" target="_blank">Camboja</a> (16 718 965)</td>
+            </tr>
+            <tr>
+                <td scope="row">4</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Bahia" target="_blank">Bahia</a></td>
+                <td class="num">14 850 513</td>
+                <td class="add">+5,01%</td>
+                <td>6,96%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Zimb%C3%A1bue" target="_blank">Zimbabwe</a> (14 862 924)</td>
+            </tr>
+            <tr>
+                <td scope="row">5</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Paran%C3%A1" target="_blank">Paraná</a></td>
+                <td class="num">11 824 665</td>
+                <td class="add">+3,32%</td>
+                <td>5,64%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Tun%C3%ADsia" target="_blank">Tunísia</a> (11 818 619)</td>
+            </tr>
+            <tr>
+                <td scope="row">6</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Rio_Grande_do_Sul" target="_blank">Rio Grande do Sul</a></td>
+                <td class="num">11 229 915</td>
+                <td class="add">+3,18%</td>
+                <td>5,36%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Portugal" target="_blank">Portugal</a> (10 343 066)</td>
+            </tr>
+            <tr>
+                <td scope="row">7</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Pernambuco" target="_blank">Pernambuco</a></td>
+                <td class="num">9 539 029</td>
+                <td class="add">+5,29%</td>
+                <td>4,46%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/%C3%81ustria" target="_blank">Áustria</a> (9 006 398)</td>
+            </tr>
+            <tr>
+                <td scope="row">8</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Cear%C3%A1" target="_blank">Ceará</a></td>
+                <td class="num">9 233 656</td>
+                <td class="add">+4,75%</td>
+                <td>4,33%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Papua-Nova_Guin%C3%A9" target="_blank">Papua-Nova Guiné</a> (8 947 024)</td>
+            </tr>
+            <tr>
+                <td scope="row">9</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Par%C3%A1" target="_blank">Pará</a></td>
+                <td class="num">8 664 306</td>
+                <td class="add">+6,68%</td>
+                <td>4,10%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Sui%C3%A7a" target="_blank">Suíça</a> (8 654 622)</td>
+            </tr>
+            <tr>
+                <td scope="row">10</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Santa_Catarina_(estado)" target="_blank">Santa Catarina</a></td>
+                <td class="num">8 058 447</td>
+                <td class="add">+5,56%</td>
+                <td>3,75%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Laos" target="_blank">Laos</a> (7 749 595)</td>
+            </tr>
+            <tr>
+                <td scope="row">11</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Goi%C3%A1s" target="_blank">Goiás</a></td>
+                <td class="num">7 350 483</td>
+                <td class="add">+4,16%</td>
+                <td>3,47%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Bulg%C3%A1ria" target="_blank">Bulgária</a> (6 948 445)</td>
+            </tr>
+            <tr>
+                <td scope="row">12</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Maranh%C3%A3o" target="_blank">Maranhão</a></td>
+                <td class="num">7 010 960</td>
+                <td class="add">+3,47%</td>
+                <td>3,34%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Bulg%C3%A1ria" target="_blank">Bulgária</a> (6 948 445)</td>
+            </tr>
+            <tr>
+                <td scope="row">13</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Amazonas_(Brasil)" target="_blank">Amazonas</a></td>
+                <td class="num">4 281 209</td>
+                <td class="add">+8,61%</td>
+                <td>1,94%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Ge%C3%B3rgia_(pa%C3%ADs)" target="_blank">Geórgia</a> (3 989 167)</td>
+            </tr>
+            <tr>
+                <td scope="row">14</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Para%C3%ADba" target="_blank">Paraíba</a></td>
+                <td class="num">4 145 040</td>
+                <td class="add">+4,28%</td>
+                <td>1,96%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Ge%C3%B3rgia_(pa%C3%ADs)" target="_blank">Geórgia</a> (3 989 167)</td>
+            </tr>
+            <tr>
+                <td scope="row">15</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Esp%C3%ADrito_Santo_(estado)" target="_blank">Espírito Santo</a></td>
+                <td class="num">4 102 129</td>
+                <td class="add">+7,00%</td>
+                <td>1,89%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Ge%C3%B3rgia_(pa%C3%ADs)" target="_blank">Geórgia</a> (3 989 167)</td>
+            </tr>
+            <tr>
+                <td scope="row">16</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Mato_Grosso" target="_blank">Mato Grosso</a></td>
+                <td class="num">3 836 399</td>
+                <td class="add">+4,85%</td>
+                <td>1,80%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Ge%C3%B3rgia_(pa%C3%ADs)" target="_blank">Geórgia</a> (3 989 167)</td>
+            </tr>
+            <tr>
+                <td scope="row">17</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Rio_Grande_do_Norte" target="_blank">Rio Grande do Norte</a></td>
+                <td class="num">3 446 071</td>
+                <td class="add">+4,34%</td>
+                <td>1,63%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Uruguai" target="_blank">Uruguai</a> (3 473 730)</td>
+            </tr>
+            <tr>
+                <td scope="row">18</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Piau%C3%AD" target="_blank">Piauí</a></td>
+                <td class="num">3 375 646</td>
+                <td class="add">+3,19%</td>
+                <td>1,61%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/B%C3%B3snia_e_Herzeg%C3%ADn" target="_blank">Bósnia e Herzegovina</a> (3 280 819)</td>
+            </tr>
+            <tr>
+                <td scope="row">19</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Alagoas" target="_blank">Alagoas</a></td>
+                <td class="num">3 220 104</td>
+                <td class="add">+2,95%</td>
+                <td>1,54%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Mong%C3%B3lia" target="_blank">Mongólia</a> (3 278 290)</td>
+            </tr>
+            <tr>
+                <td scope="row">20</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Distrito_Federal_(Brasil)" target="_blank">Distrito Federal</a></td>
+                <td class="num">2 982 815</td>
+                <td class="add">+5,87%</td>
+                <td>1,39%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Arm%C3%A9nia" target="_blank">Armênia</a> (2 963 243)</td>
+            </tr>
+            <tr>
+                <td scope="row">21</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Mato_Grosso_do_Sul" target="_blank">Mato Grosso do Sul</a></td>
+                <td class="num">2 901 895</td>
+                <td class="add">+5,25%</td>
+                <td>1,36%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Alb%C3%A2nia" target="_blank">Albânia</a> (2 877 797)</td>
+            </tr>
+            <tr>
+                <td scope="row">22</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Sergipe" target="_blank">Sergipe</a></td>
+                <td class="num">2 291 077</td>
+                <td class="add">+3,68%</td>
+                <td>1,09%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Gab%C3%A3o" target="_blank">Gabão</a> (2 225 734)</td>
+            </tr>
+            <tr>
+                <td scope="row">23</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Rond%C3%B4nia" target="_blank">Rondônia</a></td>
+                <td class="num">1 746 227</td>
+                <td class="add">+10,43%</td>
+                <td>0,78%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Ba%C3%ADre" target="_blank">Bahrein</a> (1 701 575)</td>
+            </tr>
+            <tr>
+                <td scope="row">24</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Tocantins" target="_blank">Tocantins</a></td>
+                <td class="num">1 577 342</td>
+                <td class="add">+4,35%</td>
+                <td>0,74%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Guin%C3%A9_Equatorial" target="_blank">Guiné Equatorial</a> (1 402 985)</td>
+            </tr>
+            <tr>
+                <td scope="row">25</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Acre" target="_blank">Acre</a></td>
+                <td class="num">880 631</td>
+                <td class="add">+6,08%</td>
+                <td>0,41%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Comores" target="_blank">Comores</a> (869 601)</td>
+            </tr>
+            <tr>
+                <td scope="row">26</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Amap%C3%A1" target="_blank">Amapá</a></td>
+                <td class="num">802 837</td>
+                <td class="add">+9,41%</td>
+                <td>0,36%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Guiana" target="_blank">Guiana</a> (786 552)</td>
+            </tr>
+            <tr>
+                <td scope="row">27</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Roraima" target="_blank">Roraima</a></td>
+                <td class="num">716 793</td>
+                <td class="add">+12,57%</td>
+                <td>0,31%</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Montenegro" target="_blank">Montenegro</a> (649 335)</td>
+            </tr>
+        </tbody>
+        
+        <tfoot class="x">
+            <tr>
+                <th scope="row">Total</th>
+                <td class="num" colspan="5">212 583 750</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
